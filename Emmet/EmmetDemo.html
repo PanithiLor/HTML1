@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- -->
+    <section>
+        <p>test child</p>
+    </section>
+
+    <!--section>ul>li-->
+    <section>
+        <ul>
+            <li>test 1</li>
+        </ul>
+    </section>
+
+    <!--section>ul>li*h-->
+    <section>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </section>
+
+    <!--section>ul*5>li-->
+    <section>
+        <ul>
+            <li></li>
+        </ul>
+        <ul>
+            <li></li>
+        </ul>
+        <ul>
+            <li></li>
+        </ul>
+        <ul>
+            <li></li>
+        </ul>
+        <ul>
+            <li></li>
+        </ul>
+    </section>
+
+    <!--section>img+p-->
+    <section>
+        <img src="" alt="">
+        <p></p>
+    </section>
+
+    <!--section>img[src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRq19hwc8JWF1axV_W2ZW99VOW07v2XTJ2GOGbpb8MXcJvlNKbZ."]-->
+    <section><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRq19hwc8JWF1axV_W2ZW99VOW07v2XTJ2GOGbpb8MXcJvlNKbZ" alt=""></section>
+
+    <!--section>p.hello-->
+    <section>
+        <p class="hello"></p>
+    </section>
+
+    <!--p[title="Hello World"]-->
+    <p title="Hello World"></p>
+
+    <!--div>p>spam+em^bq-->
+    <div>
+        <p>
+            <spam></spam>
+            <em></em>
+        </p>
+        <blockquote></blockquote>
+    </div>
+
+    <!--div>section>p>img^h1-->
+    <div>
+        <section>
+            <p><img src="" alt=""></p>
+            <h1></h1>
+        </section>
+    </div>
+
+    <!--div>section>p>img^h1^section>p>img^h1-->
+    <div>
+        <section>
+            <p><img src="" alt=""></p>
+            <h1></h1>
+        </section>
+        <section>
+            <p><img src="" alt=""></p>
+            <h1></h1>
+        </section>
+    </div>
+</body>
+</html>
